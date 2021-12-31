@@ -1,0 +1,27 @@
+.image-card{
+    width: 100%;
+}
+
+.image-card img{
+    width: 100%;
+}
+
+.bbuttons button{
+    margin-left:30px ;
+    position: absolute;
+    width: 100px;
+    background-color: #ffbd50;
+    border: 0.125rem solid #ffbd50;
+    border-radius: 10px;
+
+} 
+.bbuttons button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    
+}
+
+.description{
+    margin-top: 5px;
+}
