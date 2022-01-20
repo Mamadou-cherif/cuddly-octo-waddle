@@ -17,6 +17,8 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
 import { AppRoutingModule } from './app-routing.module';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { GlobalityComponent } from './components/globalComponent/globality/globality.component';
+import { LloginComponent } from './components/llogin/llogin.component';
+import { GlobalAppComponent } from './components/global-app/global-app.component';
 
 
 @NgModule({
@@ -35,6 +37,8 @@ import { GlobalityComponent } from './components/globalComponent/globality/globa
     PrivacyPolicyComponent,
     NavigationComponent,
     GlobalityComponent,
+    LloginComponent,
+    GlobalAppComponent,
 
 
   ],

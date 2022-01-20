@@ -231,7 +231,7 @@ a:hover {
 
 .label-control {
 	position: absolute;
-	top: 0.87rem;
+	top: 0.2rem;
 	left: 1.375rem;
 	color: black;
 	opacity: 1;
@@ -816,6 +816,7 @@ input[type='checkbox'] {
 .header .btn-outline-lg:hover{
 	border: 0.125rem solid #50a2ff;
 	color: #50a2ff;
+	text-decoration: none;
 }
 
 
@@ -2195,4 +2196,5 @@ a:hover.back-to-top {
 	}
 	/* end of extra pages */
 }
+
 /* end of min-width width 1200px */

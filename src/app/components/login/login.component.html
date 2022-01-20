@@ -1,6 +1,50 @@
-<form #loginForm="ngForm"  (ngSubmit)="onSubmit(loginForm)">
+<!-- <form #loginForm="ngForm"  (ngSubmit)="onSubmit(loginForm)">
     <input type="text" name="email" #email="ngModel" [(ngModel)]="user.email">
     <input type="text" name="password" #password="ngModel" [(ngModel)]="user.password">
 
     <input type="submit">
-</form>
+</form> -->
+
+<!-- Newsletter -->
+<div class="loginWrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12"> 
+                <h3 align="center">Connectez-vous</h3>
+                
+                <!-- Newsletter Form -->
+                <form id="newsletterForm" data-toggle="validator" data-focus="false">
+                    <div class="form-group">
+                        <input type="email" class="form-control-input" id="nemail" required>
+                        <label class="label-control" for="nemail">Email</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control-input" id="nemail" required>
+                        <label class="label-control" for="nemail">Mot de passe</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="nterms" value="Agreed-to-Terms" required>J'ai lu et accepte le <a routerLink="/privacypolicy">Les conditions de confidentialités</a> et les <a routerLink="/termcondition"> termes d'utilisation</a> 
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control-submit-button" routerLink="/globality">Envoyer</button>
+                    </div>
+                    <div class="form-message">
+                        <div id="nmsgSubmit" class="h3 text-center hidden"></div>
+                    </div>
+                </form>
+                <!-- end of newsletter form -->
+                
+                
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="forgetPw">
+        </div>
+    </div> <!-- end of container -->
+    <div class="forgetPw">
+        <p align="left">mot de passe oublié?</p> 
+    </div>
+</div> <!-- end of form-2 -->
+<!-- end of newsletter -->
