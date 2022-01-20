@@ -34,16 +34,22 @@
                 </div>
             </li>
             <!-- end of dropdown menu -->
-
+            
             <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contact" style="color: black;">CONTACT</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link page-scroll login" style="color: black;" routerLink="/login">LOGIN</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle page-scroll" href="#date" id="navbarDropdown" style="color: black;" role="button" aria-haspopup="true" aria-expanded="false">CONNECTION</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" routerLink="/login"><span class="item-text">SIGNIN</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item"><span class="item-text">SIGNUP</span></a>
+                    <div class="dropdown-divider"></div>
+                </div>
             </li>
 
         </ul>
-        <span class="nav-item social-icons">
+        <!-- <span class="nav-item social-icons">
             <span class="fa-stack">
                 <a href="#your-link">
                     <i class="fas fa-circle fa-stack-2x"></i>
@@ -56,7 +62,7 @@
                     <i class="fab fa-twitter fa-stack-1x"></i>
                 </a>
             </span>
-        </span>
+        </span> -->
     </div>
 </nav> <!-- end of navbar -->
 
