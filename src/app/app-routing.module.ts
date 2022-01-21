@@ -5,6 +5,7 @@ import { TermConditionComponent } from "./components/term-condition/term-conditi
 import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { GlobalityComponent } from "./components/globalComponent/globality/globality.component";
 import { LoginComponent } from "./components/login/login.component";
+import { LogupComponent } from "./components/logup/logup.component";
 
 const routes: Routes=[
     {path: "articleDetail", component: ArticleDetailsComponent},
@@ -12,6 +13,7 @@ const routes: Routes=[
     {path: "privacypolicy", component: PrivacyPolicyComponent},
     { path: "globality", component: GlobalityComponent},
     {path: "login", component: LoginComponent},
+    {path: "logup", component:LogupComponent},
     {path: "", redirectTo:"globality", pathMatch:"full"}
 ]
 

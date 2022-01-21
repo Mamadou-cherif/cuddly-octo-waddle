@@ -3,7 +3,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
-    overflow: hidden;
+    
     
 }
 
@@ -13,6 +13,9 @@
     }
 }
 
+.forgetPw{
+    margin-top: 30px;
+}
 .forgetPw p{
-text-align: left;
+    text-align: right;
 }

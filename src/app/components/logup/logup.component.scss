@@ -1,0 +1,21 @@
+.loginWrapper{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+    
+}
+
+@media(max-width:470px){
+    .loginWrapper{
+        width: 100%;
+    }
+}
+        .forgetPw{
+            margin-top: 30px;
+        }
+
+.forgetPw p{
+    text-align: right;
+}
