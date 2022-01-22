@@ -19,6 +19,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { GlobalityComponent } from './components/globalComponent/globality/globality.component';
 import { LloginComponent } from './components/llogin/llogin.component';
 import { GlobalAppComponent } from './components/global-app/global-app.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { GlobalAppComponent } from './components/global-app/global-app.component
     GlobalityComponent,
     LloginComponent,
     GlobalAppComponent,
+    ResetPasswordComponent,
 
 
   ],

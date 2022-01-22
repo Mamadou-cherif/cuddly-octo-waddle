@@ -1,18 +1,18 @@
-.image-card{
-    width: 100%;
-}
+
 
 .image-card img{
     width: 100%;
+    
 }
 
 .bbuttons button{
-    margin-left:30px ;
+    margin-left:0px ;
     position: absolute;
-    width: 100px;
+    width: 90px;
     background-color: #50a2ff;
     border: 0.125rem solid #50a2ff;
     border-radius: 10px;
+    margin-top: -30px;
 
 } 
 .bbuttons button:hover{
@@ -25,3 +25,31 @@
 .description{
     margin-top: 5px;
 }
+
+.comments {
+    width: 100%;
+    margin-top: -40px;
+    opacity: 0.5;
+}
+
+ .comments i{
+     font-size: 0.7em;
+ }
+
+ .nene{
+     display: inline;
+     width: 50%;
+     
+ }
+
+ .comments span{
+     font-size: 0.7;
+ }
+
+ .paraDate{
+     position: absolute;
+     margin-left: 230px;
+     margin-top: -20px;
+     opacity: 0.8;
+     font-size: 0.9em;
+ }
