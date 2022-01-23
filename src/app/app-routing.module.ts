@@ -9,6 +9,7 @@ import { LogupComponent } from "./components/logup/logup.component";
 import { ResetPasswordComponent } from "./components/reset-password/reset-password.component";
 
 const routes: Routes=[
+    {path: "apropos", component: ArticleDetailsComponent},
     {path: "articleDetail", component: ArticleDetailsComponent},
     {path: "termcondition", component: TermConditionComponent},
     {path: "privacypolicy", component: PrivacyPolicyComponent},
