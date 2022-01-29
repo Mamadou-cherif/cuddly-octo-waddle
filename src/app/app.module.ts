@@ -20,6 +20,13 @@ import { GlobalityComponent } from './components/globalComponent/globality/globa
 import { LloginComponent } from './components/llogin/llogin.component';
 import { GlobalAppComponent } from './components/global-app/global-app.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { InfoConseilsComponent } from './components/info-conseils/info-conseils.component';
+import { EtudierAbroidComponent } from './components/etudier-abroid/etudier-abroid.component';
+import { BourseEtudesComponent } from './components/bourse-etudes/bourse-etudes.component';
+import { AdmissionComponent } from './components/admission/admission.component';
+import { BilanCompetencesComponent } from './components/bilan-competences/bilan-competences.component';
+import { BilanOrientationComponent } from './components/bilan-orientation/bilan-orientation.component';
+import { CoachingScolaireComponent } from './components/coaching-scolaire/coaching-scolaire.component';
 
 
 @NgModule({
@@ -41,6 +48,13 @@ import { ResetPasswordComponent } from './components/reset-password/reset-passwo
     LloginComponent,
     GlobalAppComponent,
     ResetPasswordComponent,
+    InfoConseilsComponent,
+    EtudierAbroidComponent,
+    BourseEtudesComponent,
+    AdmissionComponent,
+    BilanCompetencesComponent,
+    BilanOrientationComponent,
+    CoachingScolaireComponent,
 
 
   ],
